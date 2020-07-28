@@ -1,0 +1,14 @@
+.portada {
+    width: 500px;
+    height: 750px;
+    padding: 50px;
+    border: 10px black solid;
+    overflow: initial;
+    background-size: cover;
+    background-position: center;        
+}
+
+.cuerpo{
+    background-image: url("monumental.jpg");
+    background-position: center;
+}

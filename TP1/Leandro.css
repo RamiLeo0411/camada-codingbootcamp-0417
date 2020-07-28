@@ -1,0 +1,85 @@
+.cabecera{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    border: solid black 3px;
+    justify-content: space-around;
+}
+
+.cabecera div{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+display:flex;
+list-style: none;
+padding-top:150px; 
+}
+
+.menu ul li{
+    display: flex;
+    margin-right: 15px;
+
+}
+
+.cuerpoprincipal{
+    width: 100%;
+    height: 100%;
+    border: solid black 4px;
+    background: linear-gradient(to right, #ad142e, #403A3E); 
+}
+.textoprincipal{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    background-color: red;
+    border: black solid 5px; 
+}
+
+
+.pagina{
+    display:flex;   
+    background: linear-gradient(to right, #ad142e, #403A3E); 
+    justify-content: space-between;
+    text-align: center;
+    border:black solid;
+}
+
+.pagina img{
+    width: 500px;
+    height: 500px;
+    border:black solid;
+}
+.pagina img:hover{
+    transform: translate(10px);
+}
+
+.contactos{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.contactos img:hover{
+    transform: translate(0px,15px);
+}
+.formulario{
+display:flex;
+width: 400px;
+height: 300px;
+border:black solid 3px;
+background-color: honeydew;
+}
+
+.ultimo{
+    display:flex;
+    background-color: rgb(221, 97, 97);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
