@@ -1,14 +1,29 @@
 .portada {
     width: 500px;
     height: 750px;
-    padding: 50px;
-    border: 10px black solid;
-    overflow: initial;
-    background-size: cover;
-    background-position: center;        
+    padding: 20px;
+    border: 10px black solid; 
+    background-color: rgba(100, 100, 100, .8);
+    background-size:cover;
+    text-align: center;
+    background-attachment: fixed;
+    
+    
+        
 }
 
 .cuerpo{
     background-image: url("monumental.jpg");
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    position: center;
+    
 }
